@@ -10,10 +10,10 @@ def get_tweets():
 # Create an instance of Instaloader
     loader = instaloader.Instaloader()
 # Login (replace 'your_username' and 'your_password' with your actual Instagram username and password)
-    loader.login("shivani42736","Shivani0909")
+    loader.login("harshad_hirave","Harshu@2002")
 # Load a post by its URL
-    post_url = "https://www.instagram.com/p/C6BXGYyp94d"
-    post_identifier = "C6BXGYyp94d"  # Extracted from the provided URL
+    post_url = "https://www.instagram.com/reel/C5s2o3zha2i"
+    post_identifier = "C5s2o3zha2i"  # Extracted from the provided URL
     post = instaloader.Post.from_shortcode(loader.context, post_identifier)
 
 # Get comments from the post
